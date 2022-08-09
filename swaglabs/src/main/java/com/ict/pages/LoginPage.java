@@ -15,8 +15,7 @@ WebDriver driver;
     @FindBy(id="password")
     private WebElement password;    
     @FindBy(id="login-button")
-    private WebElement login;
-    
+    private WebElement login;    
     @FindBy(xpath="//div[@class='error-message-container error']/h3")
     private WebElement errorMessage;
    
